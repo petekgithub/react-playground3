@@ -21,7 +21,7 @@ const Login = () => {
 
   const handleSubmit = () => {
     (userName === "petek" && userPass === "1234") ? navigate("./Home") :
-      alert("Try again");
+      alert("Try again please");
   }
 
 
